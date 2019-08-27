@@ -1,13 +1,24 @@
 module.exports = {
     "env": {
         "browser": true,
+        "node": true,
+        "commonjs": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "globals": {
+        "App": true,
+        "event": true,
+        "getApp": true,
+        "getCurrentPages": true,
+        "Page": true,
+        "res": true,
+        "wx": true
+    },
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
+    "extends": "eslint:recommended",
     "rules": {
         "indent": [
             "error",
@@ -27,10 +38,4 @@ module.exports = {
         ],
         "no-unused-vars": ["error", { "varsIgnorePattern": "regeneratorRuntime" }]
     },
-    "globals": {
-      "App": true,
-      "Page": true,
-      "wx": true,
-      "getApp": true
-    }
 };
