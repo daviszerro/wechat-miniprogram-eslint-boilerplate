@@ -1,8 +1,8 @@
 # wechat-miniprogram-eslint-boilerplate
 
-为 wechat-miniprogram（微信小程序）写的 Eslint 通用模板文件
+为 wechat-miniprogram（微信小程序）写的 ESLint 通用模板文件
 
-## 使用此 Eslint 配置文件，您可以
+## 使用此 ESLint 配置文件，您可以
 
 * 节省掉自己配置的时间
 * 快速开发并在多人协作时保持统一的代码风格
