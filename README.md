@@ -7,7 +7,7 @@
 * 节省掉自己配置的时间
 * 快速开发并在多人协作时保持统一的代码风格
 
-## 配置说明：
+## 配置说明
 
 * 已忽略 `regeneratorRuntime` 模块报错
 * 已设置 `App`，`Page`，`wx`，`getApp`, `event`, `getCurrentPages`, `res` 为全局变量

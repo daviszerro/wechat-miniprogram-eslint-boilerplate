@@ -36,6 +36,7 @@ module.exports = {
             "error",
             "always"
         ],
-        "no-unused-vars": ["error", { "varsIgnorePattern": "regeneratorRuntime" }]
+        "no-unused-vars": ["error", { 
+            "varsIgnorePattern": "regeneratorRuntime" }]
     },
 };
